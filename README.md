@@ -1,201 +1,214 @@
-# GROK IDE w Grok-4-0709
+# IDE GROK
 
+<img width="1570" height="1721" alt="Captura de pantalla 2025-07-10 a la 1:02:20PM" src="https://github.com/user-attachments/assets/58ae9c9e-2aa1-4170-ad3a-1971509fa452" />
 
-<img width="1570" height="1721" alt="Screenshot 2025-07-10 at 1 02 20 PM" src="https://github.com/user-attachments/assets/58ae9c9e-2aa1-4170-ad3a-1971509fa452" />
-
-
-*A sleek, dark-themed development environment with advanced AI capabilities*
+*Un entorno de desarrollo elegante con tema oscuro y capacidades avanzadas de IA*
 
 </div>
 
-## 🎯 MISSION OVERVIEW
+## 🎯 DESCRIPCIÓN GENERAL
 
-The Grok IDE is a cutting-edge development environment inspired by the interfaces of Metal Gear Solid. Built with a sleek black aesthetic and white highlights, this IDE combines traditional coding capabilities with powerful AI assistance from xAI's Grok.
+El IDE Grok es un entorno de desarrollo de vanguardia inspirado en las interfaces de Metal Gear Solid. Con una estética elegante en negro y detalles en blanco, este IDE combina las capacidades de codificación tradicionales con la potente asistencia de IA de Grok de xAI.
 
-## ⚡ CORE FEATURES
+## ⚡ CARACTERÍSTICAS PRINCIPALES
 
-### 🖥️ **MODERN INTERFACE**
-- **Dark Metal Gear Solid-inspired theme** with white accents
-- **Resizable panels** for customizable workspace layout
-- **Advanced file explorer** with context menu operations
-- **Multi-tab editor** with syntax highlighting indicators
-- **Real-time status monitoring** with system status bar
+### 🖥️ **INTERFAZ MODERNA**
 
-### 🤖 **GROK AI INTEGRATION**
-- **Multi-mode AI assistant** (Code, Image, Chat)
-- **Code generation and analysis** with insertion capabilities
-- **Image generation** using xAI's image models
-- **Context-aware assistance** with file content integration
-- **Advanced code formatting** with markdown support
+- **Tema oscuro inspirado en Metal Gear Solid** con detalles en blanco
+- **Paneles redimensionables** para personalizar la distribución del espacio de trabajo
 
-### 📁 **FILE OPERATIONS**
-- **Native file system access** using File System API
-- **Create files and folders** directly from the interface
-- **Auto-save functionality** with modification tracking
-- **Batch save operations** for multiple files
-- **Real-time file tree updates**
+- **Explorador de archivos avanzado** con operaciones de menú contextual
 
-### 🎨 **CODE ENHANCEMENT**
-- **AI-generated code insertion** directly into editor
-- **File creation from AI code blocks** with proper extensions
-- **Copy and insert operations** for generated content
-- **Syntax-aware file icons** for better organization
+- **Editor de pestañas múltiples** con indicadores de resaltado de sintaxis
 
-## 🚀 DEPLOYMENT INSTRUCTIONS
+- **Monitoreo de estado en tiempo real** con barra de estado del sistema
 
-### Prerequisites
-- Node.js (v14 or higher)
-- NPM (Node Package Manager)
-- xAI API Key for Grok integration
+### 🤖 **INTEGRACIÓN DE GROK AI**
 
-### Installation
+- **Asistente de IA multimodo** (Código, Imagen, Chat)
 
-1. **Clone the repository:**
+- **Generación y análisis de código** con capacidad de inserción
+
+- **Generación de imágenes** usando los modelos de imagen de xAI
+
+- **Asistencia contextual** con integración de contenido de archivos
+
+- **Formato de código avanzado** con compatibilidad con Markdown
+
+### 📁 **OPERACIONES CON ARCHIVOS**
+
+- **Acceso nativo al sistema de archivos** mediante la API del sistema de archivos
+
+- **Creación de archivos y carpetas** directamente desde la interfaz
+- **Funcionalidad de autoguardado** con seguimiento de modificaciones
+- **Guardado por lotes** para varios archivos
+- **Actualizaciones en tiempo real del árbol de archivos**
+
+### 🎨 **MEJORA DE CÓDIGO**
+
+- **Inserción de código generado por IA** directamente en el editor
+- **Creación de archivos a partir de bloques de código de IA** con las extensiones correctas
+
+- **Operaciones de copia e inserción** para el contenido generado
+
+- **Iconos de archivo con reconocimiento de sintaxis** para una mejor organización
+
+## 🚀 INSTRUCCIONES DE DESPLIEGUE
+
+### Requisitos previos
+- Node.js (v14 o superior)
+
+- NPM (Administrador de paquetes de Node)
+
+- Clave API de xAI para la integración con Grok
+
+### Instalación
+
+1. **Clonar el repositorio:**
 ```bash
-git clone <repository-url>
+
+git clone <url-del-repositorio>
+
 cd grok-ide
 ```
 
-2. **Install dependencies:**
+2. **Instalar las dependencias:**
 ```bash
+
 npm install
 ```
 
-3. **Configure environment:**
-Create a `.env` file in the root directory:
+3. **Configurar Entorno:** Crea un archivo `.env` en el directorio raíz:
+
 ```env
-XAI_API_KEY=your_xai_api_key_here
+XAI_API_KEY=tu_clave_api_xai_aquí
 PORT=3000
+
 ```
 
-### Launch Sequence
+### Secuencia de inicio
 
-1. **Start the server:**
+1. **Inicia el servidor:**
+
 ```bash
+
 npm start
+
 ```
 
-2. **Access the interface:**
-Open your browser and navigate to `http://localhost:3000`
+2. **Accede a la interfaz:**
 
-3. **Begin operations:**
-- Click "OPEN FOLDER" to load your project
-- Use the AI assistant for code generation and analysis
-- Create and edit files with the editor
+Abre tu navegador y navega a `http://localhost:3000`
 
-## 🎮 CONTROLS
+3. **Comienza las operaciones:**
 
-### File Operations
-- **CTRL/CMD + S**: Save current file
-- **CTRL/CMD + SHIFT + S**: Save all files
-- **Right-click in explorer**: Context menu for file/folder creation
+- Haz clic en "ABRIR CARPETA" para cargar tu proyecto
 
-### AI Assistant
-- **CTRL/CMD + Enter**: Send AI request
-- **Mode switching**: Toggle between Code, Image, and Chat modes
-- **Context inclusion**: Include current file content in AI requests
+- Usa el asistente de IA para la generación y el análisis de código
+
+- Crea y edita archivos con el editor
+
+## 🎮 CONTROLES
+
+### Operaciones con archivos
+
+- **CTRL/CMD + S**: Guarda el archivo actual
+
+- **CTRL/CMD + SHIFT + S**: Guarda todos los archivos
+
+- **Clic derecho en el explorador**: Menú contextual para crear archivos y carpetas
+
+### Asistente de IA
+- **CTRL/CMD + Enter**: Enviar solicitud a la IA
+
+- **Cambio de modo**: Alternar entre los modos Código, Imagen y Chat
+
+- **Inclusión de contexto**: Incluir el contenido del archivo actual en las solicitudes a la IA
 
 ### Editor
-- **Tab management**: Click tabs to switch files, × to close
-- **Auto-save**: Automatic saving with modification indicators
-- **Code insertion**: Direct insertion from AI-generated code blocks
 
-## 🛠️ ARCHITECTURE
+- **Gestión de pestañas**: Hacer clic en las pestañas para cambiar de archivo, × para cerrar
 
-```
-grok-ide/
-├── public/
-│   └── GrokIDE.html           # Main interface
-├── server.js                  # Server with AI endpoints
-├── package.json              # Dependencies
-├── .env                      # Configuration
-└── README.md                 # Documentation
+- **Guardado automático**: Guardado automático con indicadores de modificación
+
+- **Inserción de código**: Inserción directa desde bloques de código generados por la IA
+
+## 🛠️ ARQUITECTURA
+
+``` Documentación
 ```
 
-## 🔧 API ENDPOINTS
+## 🔧 PUNTOS DE ENLACE DE LA API
 
-### AI Operations
-- `POST /api/completion` - Grok chat completions
-- `POST /api/generate-image` - AI image generation
-- `POST /api/analyze-code` - Code analysis and review
-- `POST /api/analyze-project` - Project structure analysis
+### Operaciones de IA
 
-### System Operations
-- `GET /api/health` - System status check
-- `GET /` - Main interface
-- `GET /legacy` - Legacy interface access
+- `POST /api/completion` - Autocompletado de chat Grok
+- `POST /api/generate-image` - Generación de imágenes con IA
 
-## 🎨 THEME
+- `POST /api/analyze-code` - Análisis y revisión de código
 
-The interface uses a carefully crafted color scheme:
-- **Primary Black**: `#0a0a0a` - Main background
-- **Secondary Black**: `#111111` - Panel backgrounds
-- **Tertiary Black**: `#1a1a1a` - Component backgrounds
-- **White Highlights**: `#ffffff` - Accents and borders
-- **Turquoise Text**: `#40e0d0` - Subtle status text
+- `POST /api/analyze-project` - Análisis de la estructura del proyecto
 
-## 🔒 SECURITY PROTOCOLS
+### Operaciones del sistema
 
-- Environment variable protection for API keys
-- Request validation and sanitization
-- Error handling with system feedback
-- Secure file system operations
+- `GET /api/health` - Comprobación del estado del sistema
 
-## 🚨 TROUBLESHOOTING
+- `GET /` - Interfaz principal
 
-### Common Issues
+- `GET /legacy` - Acceso a la interfaz heredada
 
-**AI Features Not Working:**
-- Verify XAI_API_KEY is set in .env file
-- Check API key validity and permissions
-- Ensure internet connection for AI requests
+## 🎨 TEMA
 
-**File System Access Denied:**
-- Use a modern browser supporting File System API
-- Grant necessary permissions when prompted
-- Ensure HTTPS in production environments
+La interfaz utiliza una paleta de colores cuidadosamente diseñada:
 
-**Performance Issues:**
-- Close unused tabs to free memory
-- Limit AI context size for large files
-- Use browser developer tools to monitor performance
+- **Negro primario**: `#0a0a0a` - Fondo principal
 
-## 🎯 OBJECTIVES
+- **Negro secundario**: `#111111` - Fondos de paneles
 
-- [x] Dark theme implementation
-- [x] Multi-mode AI assistant integration
-- [x] Advanced file operations
-- [x] Code generation and insertion
-- [x] Image generation capabilities
-- [x] Resizable interface panels
-- [x] Context menu operations
-- [x] Real-time status monitoring
+- **Negro terciario**: `#1a1a1a` - Fondos de componentes
 
-## 🤝 SUPPORT
+- **Blanco** Características destacadas**: `#ffffff` - Acentos y bordes
+- **Texto turquesa**: `#40e0d0` - Texto de estado discreto
 
-For support and feature requests:
-1. Check the troubleshooting section
-2. Review the API documentation
-3. Submit reports via issues
+## 🔒 PROTOCOLOS DE SEGURIDAD
 
-## 📜 LICENSE
+- Protección de claves API mediante variables de entorno
+- Validación y saneamiento de solicitudes
+- Manejo de errores con información del sistema
+- Operaciones seguras del sistema de archivos
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🚨 SOLUCIÓN DE PROBLEMAS
 
-## 🎖️ ACKNOWLEDGMENTS
+### Problemas comunes
 
-- Inspired by Metal Gear Solid interfaces
-- Powered by xAI's Grok AI technology
-- Built with modern web technologies
-- Designed for professional development operations
+**Funciones de IA que no funcionan:**
 
----
+- Verifique que XAI_API_KEY esté configurado en el archivo .env
+- Compruebe la validez y los permisos de la clave API
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                    MISSION COMPLETE                          ║
-║                   READY FOR DEPLOYMENT                       ║
-╚══════════════════════════════════════════════════════════════╝
-```
+- Asegúrese de tener conexión a internet para las solicitudes de IA
 
-⚠️ **WARNING**: This project requires a valid xAI API key for full functionality. Keep your credentials secure and never commit them to version control.
+**Acceso al sistema de archivos denegado:**
+
+- Use un navegador moderno compatible con la API del sistema de archivos
+
+- Otorgue los permisos necesarios cuando se le solicite
+
+- Asegúrese de usar HTTPS en entornos de producción
+
+**Problemas de rendimiento:**
+
+- Cierre las pestañas que no utilice para liberar memoria
+
+- Limite el tamaño del contexto de IA para archivos grandes
+
+- Use las herramientas para desarrolladores del navegador para supervisar el rendimiento
+
+## 🎯 OBJETIVOS
+
+- [x] Implementación del tema oscuro
+- [x] Integración de asistente de IA multimodo
+- [x] Operaciones avanzadas con archivos
+- [x] Generación e inserción de código
+- [x] Capacidades de generación de imágenes
+- [x] Interfaz redimensionable
