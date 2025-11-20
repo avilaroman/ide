@@ -1,4 +1,4 @@
-# IDE GROK
+# IDE GROK https://ide.autorags.com
 
 <img width="1570" height="1721" alt="Captura de pantalla 2025-07-10 a la 1:02:20PM" src="https://github.com/user-attachments/assets/58ae9c9e-2aa1-4170-ad3a-1971509fa452" />
 
